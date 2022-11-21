@@ -6,7 +6,7 @@
 
 .top-caption {
     position: absolute;
-    top: 17%;
+    top: 10%;
     text-align: center;
 }
 
@@ -34,6 +34,12 @@
     font-weight: 700;
     font-style: normal;
     font-size: 160px;
+}
+
+.smallFont {
+    font-family: odile, serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 /*
