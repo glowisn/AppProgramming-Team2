@@ -3,26 +3,77 @@
 <head>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Demo</title>
+    <title>Home</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link href="CSS/index.css" rel="stylesheet">
 
 </head>
 
 <body>
     <!-- Home Image -->
-    <section>
-        <div class="home-image">
+    <section id="image">
+        <div class="img-fluid top-image">
             <img src="assets/images/home.jpeg" alt="Home Image" class="d-block w-100">
+            <div class="top-caption w-100">
+                <h1>Sample Text 1</h1>
+            </div>
+            <div class="bottom-caption w-100">
+                <h1>Sample Text 2</h1>
+            </div>
         </div>
     </section>
 
-    <section>
-        <div class="bg-black" style="height: 600px;">
-            <div class="" style="background-color: #446862; width: 200px; height: 200px; float:left;">
+    <section id="video">
+        <div class="d-block">
+            <div class="d-inline-block w-50">
+                <div class="p-5">
+                    <!-- <div style="background-color: #446862;"> -->
+                    <div class="home-gradient">
+                        <div class="text-center text-white">
+                            <h1>Sample Text 3</h1>
+                            <p><br><br><br><br>
+                                <a href="video.html" class="btn btn-primary">Watch Video</a>
+                                <br><br><br><br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-inline-block">
+                <div class="p-5">
+                    <video src="assets/videos/video1.mp4" style="width: 500px;" controls></video>
+                </div>
             </div>
         </div>
+    </section>
+
+    <section id="article">
+
+    </section>
+
+    <section id="impact">
+        <!-- impact page navigation -->
+        <div class="d-block">
+            <div class="d-inline-block">
+                <div class="p-5">
+                    <img src="assets/images/impact.jpg" alt="Impact Image" style="width: 500px;">
+                </div>
+            </div>
+            <div class="d-inline-block w-50">
+                <div class="p-5">
+                    <div class="home-gradient">
+                        <div class="text-center text-white">
+                            <h1>Sample Text 4</h1>
+                            <p><br><br><br><br>
+                                <a href="impact.html" class="btn btn-primary">Read More</a>
+                                <br><br><br><br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
     </section>
 
     <!-- JavaScript Bundle with Popper -->

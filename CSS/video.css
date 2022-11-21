@@ -1,0 +1,8 @@
+.on-hover-cover{
+    transition: all 1.2s ease;
+}
+
+.on-hover-cover:hover{
+    transform-origin: top left;
+    transform: scale(2.5);
+}

@@ -1,6 +1,39 @@
+body {
+    background-color: black;
+}
 
+
+.top-image {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.top-caption {
+    position: absolute;
+    top: 10%;
+    text-align: center;
+}
+
+.bottom-caption {
+    position: absolute;
+    top: 90%;
+    text-align: center;
+}
+
+
+.home-gradient {
+    background: rgb(68, 104, 98);
+    background: radial-gradient(circle, rgba(68, 104, 98, 1) 38%, rgba(0, 0, 0, 1) 61%);
+}
+
+
+
+
+
+/*
 .carousel-caption {
-    top: 50%;
+    top: 20%;
     transform: translateY(-50%);
     bottom: initial;
 }
@@ -17,4 +50,4 @@ h5 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-  }
+  } */

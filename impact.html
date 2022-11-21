@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Impact</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link href="CSS/impact.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+
+    <div class="some"></div>
+
+    <div class="scroll-moveBox flex flex-br-c">
+        <ul>
+            <li><a href="#div1" id="scroll_move">div1로 이동</a></li>
+            <li><a href="#div2" id="scroll_move">div2로 이동</a></li>
+            <li><a href="#div3" id="scroll_move">div3로 이동</a></li>
+            <li><a href="#div4" id="scroll_move">div4로 이동</a></li>
+        </ul>
+    </div>
+
+    <div id="div1 p-5">
+        <h1>someId1</h1>
+        <br>
+        <div class="w-25">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc luctus libero vel molestie mollis. Duis
+                vitae
+                feugiat neque. Ut cursus congue tempor. Sed faucibus dapibus nibh a ullamcorper. Integer in dapibus
+                turpis,
+                in rutrum augue. Phasellus luctus luctus velit, at gravida eros consequat ut. Vestibulum efficitur sem
+                nec
+                massa ullamcorper, quis euismod justo vehicula. Quisque ac arcu quis diam tincidunt ullamcorper.
+                Curabitur
+                facilisis sollicitudin ante, non vulputate nulla lobortis ut. Vivamus commodo augue id urna mollis
+                sodales.
+            </p>
+        </div>
+        <br>
+    </div>
+
+    <div id="div2 p-5">
+        <h1>someId2</h1>
+        <br>
+        <div class="w-25">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc luctus libero vel molestie mollis. Duis
+                vitae
+                feugiat neque. Ut cursus congue tempor. Sed faucibus dapibus nibh a ullamcorper. Integer in dapibus
+                turpis,
+                in rutrum augue. Phasellus luctus luctus velit, at gravida eros consequat ut. Vestibulum efficitur sem
+                nec
+                massa ullamcorper, quis euismod justo vehicula. Quisque ac arcu quis diam tincidunt ullamcorper.
+                Curabitur
+                facilisis sollicitudin ante, non vulputate nulla lobortis ut. Vivamus commodo augue id urna mollis
+                sodales.
+            </p>
+        </div>
+        <br>
+    </div>
+
+    <div id="div3 p-5">
+        <h1>someId3</h1>
+        <br>
+        <p class="w-50">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc luctus libero vel molestie mollis. Duis vitae
+            feugiat neque. Ut cursus congue tempor. Sed faucibus dapibus nibh a ullamcorper. Integer in dapibus turpis,
+            in rutrum augue. Phasellus luctus luctus velit, at gravida eros consequat ut. Vestibulum efficitur sem nec
+            massa ullamcorper, quis euismod justo vehicula. Quisque ac arcu quis diam tincidunt ullamcorper. Curabitur
+            facilisis sollicitudin ante, non vulputate nulla lobortis ut. Vivamus commodo augue id urna mollis sodales.
+        </p>
+        <br>
+    </div>
+
+    <div id="div4 p-5">
+        <h1>someId4</h1>
+        <br>
+        <p class="w-75">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc luctus libero vel molestie mollis. Duis vitae
+            feugiat neque. Ut cursus congue tempor. Sed faucibus dapibus nibh a ullamcorper. Integer in dapibus turpis,
+            in rutrum augue. Phasellus luctus luctus velit, at gravida eros consequat ut. Vestibulum efficitur sem nec
+            massa ullamcorper, quis euismod justo vehicula. Quisque ac arcu quis diam tincidunt ullamcorper. Curabitur
+            facilisis sollicitudin ante, non vulputate nulla lobortis ut. Vivamus commodo augue id urna mollis sodales.
+        </p>
+        <br>
+    </div>
+
+
+    <script>
+        // $(document).ready(function ($) {
+        //     $(".scroll_move").click(function (event) {
+        //         event.preventDefault();
+        //         $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 500);
+        //     });
+        // });
+        const buttons = document.querySelectorAll('#scroll_move');
+        const divs = document.querySelectorAll('div');
+        const top0= divs[0].offsetTop;
+        const top1= divs[1].offsetTop;
+        const top2= divs[2].offsetTop;
+        const top3= divs[3].offsetTop;
+
+
+        buttons[0].onclick = function () {
+            window.scroll({top: top0, behavior: 'smooth' })
+        }
+        buttons[1].onclick = function () {
+            window.scroll({top: top1 + 525, behavior: 'smooth' })
+        }
+        buttons[2].onclick = function () {
+            window.scroll({top: top2 + 500, behavior: 'smooth' })
+        }
+        buttons[3].onclick = function () {
+            window.scroll({top: top3, behavior: 'smooth' })
+        }
+
+    </script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
