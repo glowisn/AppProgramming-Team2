@@ -8,50 +8,705 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/memorial.css">
+
+
+    <!-- font-family -->
+    <link rel="stylesheet" href="https://use.typekit.net/pkx7rdz.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pkx7rdz.css">
+
+
+
+
+
+
+    <style>
+        .hr {background-color:rgb(12, 9, 9); width:190px; height: 5px; margin-left: 0px; margin-bottom: 50px; border:none;}
+        .title {
+            width:700px;
+            height:600px;
+            
+            position: absolute; left:150px;
+
+            font-family: le-monde-livre-classic-byol,serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 75px;
+            color:rgb(40, 30, 30);
+
+            /* border: 1px solid blue; */
+        }
+/* -------------------------------------------main------------------------------------------ */
+        .main-image {           
+            filter:brightness(0.85);
+            width:3000px;
+
+            margin-top:150px;
+            position: absolute;
+    
+        }
+        .main_1 {
+            position: absolute;
+            top: 900px;
+            left: 300px;
+
+            width: 1600px;
+            height: 330px;
+
+            color: white;
+            font-family: le-monde-livre-classic-byol,serif;
+            font-weight: 500;
+            font-style: italic;
+            font-size: 100px;
+            line-height: 160px;
+            text-shadow: 0px 0px 5px darkgray;
+            
+            /* border: 1px solid red; */
+        }
+        .main-span1 {
+            position: relative;
+            left: 8px; 
+
+            font-family: le-monde-livre-classic-byol,serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 110%; 
+            background-color: rgb(255, 220, 0); 
+            color: rgb(26, 14, 14);
+            text-shadow: none;
+            
+        }
+        /* .main_2 {
+            width:150px;
+            height: 80px;
+            position: absolute;
+            top:500px;
+            right:100px;
+
+            background-color: blue;
+        } */
+
+/* ----------------------------------------------rights---------------------------------------- */
+        /* .rights_0 {
+            position: absolute;
+            top:2200px;
+
+            height: 700px;
+            width: 3000px;
+            background-image: linear-gradient(to bottom, white, black 90%);
+        } */
+        .rights_body {
+            position:absolute;
+            top:2400px; 
+            height: 6750px;
+            width: 3000px;
+            
+            background-color: rgb(0, 0, 0,0.96);
+        }
+
+        .r-img_1 {
+            width:3000px;
+            position:relative;
+            top:50px; 
+            transition: filter 0.5s;
+            /* dealy 10s 추가*/
+
+            filter: brightness(0.95); 
+        }
+        .r-img_1:hover {filter: brightness(0.2); }
+        
+        .r-para_1 {
+            font-family: le-monde-livre-classic-byol,serif;
+            font-weight: 700;
+            font-style: normal;
+            color: rgba(255, 255, 255, 0.01);
+            font-size: 150px;
+            text-align: center;
+            line-height: 50px;
+
+            width: 2500px;
+            position: absolute;
+            top:700px;
+            right:120px;
+            left: 120px;
+
+            transition: color 1s linear;
+
+            /* border:1px solid red; */
+        } 
+        .r-para_1:hover {color: rgba(255, 255, 255, 0.923);}
+        #r-span_1 {font-size: 35%; font-family: le-monde-livre-classic-byol,serif; font-weight: 300; font-style: normal;}
+
+        .r-img_2 {
+            position: relative;
+            top:700px; left:200px;
+            width:1700px;
+        }
+        .r-para_2 {
+            position: relative;
+            top:550px; left:200px;
+
+            width:1150px;
+            height:300px;
+            background-color: rgba(0, 69, 148, 0.864);
+
+            color:rgba(255, 255, 255, 0.9);
+            font-size: 50px;
+            text-align: right;
+            padding:100px 70px 100px;
+            /* font-family: le-monde-livre-classic-byol,serif;
+            font-weight: 500;
+            font-style: normal; */
+
+            font-family: odile,serif;
+            font-weight: 500;
+            font-style: normal;
+        }
+        .r-img_3 {
+            position: relative;
+            left:1000px;
+            top:750px;
+            width:1600px;
+        }
+        .r-para_3 {
+            position: relative;
+            top:520px; left:1270px;
+
+            width:1330px;
+            height:370px;
+            background-color: rgba(0, 69, 148, 0.864);
+
+            color:rgba(255, 255, 255, 0.85);
+            font-size: 45px;
+            text-align: left;
+            padding:160px 0px 0px 60px;
+            /* font-family: le-monde-livre-classic-byol,serif;
+            font-weight: 500;
+            font-style: normal; */
+
+            font-family: odile,serif;
+            font-weight: 500;
+            font-style: normal;
+        }
+        .r-img_4 {
+            position: relative;
+            left:450px;
+            top:700px;
+            width:1700px;
+        }
+        .r-para_4 {
+            position: relative;
+            top:400px; left:330px;
+
+            width:1300px;
+            height:400px;
+            background-color: rgba(31, 31, 31, 0.864);
+
+            color:rgba(255, 255, 255, 0.85);
+            font-size: 37px;
+            text-align: left;
+            padding:60px;
+            /* font-family: le-monde-livre-classic-byol,serif;
+            font-weight: 500;
+            font-style: normal; */
+
+            font-family: odile,serif;
+            font-weight: 500;
+            font-style: normal;
+        }
+/* ---------------------------------------join-------------------------------------------------------------- */
+        .j-para_0 {
+            position:absolute;
+            top:10000px; left:480px;
+            width:2000px; height: 400px;
+
+            font-family: le-monde-livre-classic-byol,serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 55px;
+
+            font-family: le-monde-livre-classic-byol,serif;
+            font-weight: 400;
+            font-style: normal;
+
+            color:black;
+            text-align: center;
+
+            /* border: 1px solid red; */
+        }
+
+        .j-body {
+            position:relative;
+            top:10450px; left:75px;
+            height: 4800px;
+            width: 2800px;
+            
+            background-color:rgba(0, 69, 148, 0.05);
+        }
+        .j-img_0 {
+            position: absolute;
+            width:2800px;
+            filter: brightness(0.95);
+        }
+        .j-para_1 {
+            position:absolute;
+            top: 1300px;
+            left: 150px;
+
+            width: 1750px; height: 700px;
+            background-color: rgba(0, 69, 148,0.9);
+            color: rgba(255, 255, 255, 0.95);
+            padding: 90px 20px 50px 85px;
+
+            font-family: odile,serif;
+            font-weight: 500;
+            font-style: italic;
+
+            font-size: 47px;
+        }
+        .j-para_2 {
+            position:absolute;
+            top:2100px; left: 100px;
+
+            width:500px; 
+            font-size: 60px;
+            text-align: center;
+            font-family: odile,serif;
+            font-weight: 700;
+            font-style: italic;
+/* 
+            font-family: le-monde-livre-classic-byol,serif;
+            font-weight: 450;
+            font-style: normal; */
+
+            /* border: solid 1px red; */
+        }
+        .j-para_3 {
+            position:absolute;
+            top:2500px; left: 200px;
+
+            width:2400px; 
+            font-size: 70px;
+            font-family: odile,serif;
+            font-weight: 800;
+            font-style: italic;
+            text-align: center;
+
+            /* border: 1px solid red; */
+        }
+        .j-para_4 {
+            position:absolute;
+            top:3500px; left: 200px;
+
+            width:2400px; 
+            font-size: 70px;
+            font-family: odile,serif;
+            font-weight: 800;
+            font-style: italic;
+            text-align: center;
+
+            /* border: 1px solid red; */
+        }
+        .j-para_5 {
+            position:absolute;
+            top: 4500px; left:340px;
+            background-color: rgb(255, 217, 0,0.8);
+
+            width:2100px;
+            font-size: 50px;
+            text-align: center;
+            /* font-family: odile,serif;
+            font-weight: 500;
+            font-style: normal; */
+
+            font-family: le-monde-livre-classic-byol,serif;
+            font-weight: 500;
+            font-style: normal;
+        }
+        .j-para_6 {
+            position:absolute;
+            top:4585px; right:280px;
+            width:300px;
+
+            font-family: le-monde-livre-classic-byol,serif;
+            font-weight: 300;
+            font-style: normal;
+            font-size: 30px;
+        }
+/* ------------pray-------------------------------------------------------------------------------- */
+
+        .p-para_0 {
+            position:absolute;
+            top:16200px; left:480px;
+            width:2000px; height: 400px;
+
+            font-size: 60px;
+            font-family: odile,serif;
+            font-weight: 600;
+            font-style: normal;
+
+            color:black;
+            text-align: center;
+
+            /* border: 1px solid red; */
+        }
+        .p-body {
+            position:relative;
+            top:11740px; left:75px;
+            height: 4500px;
+            width: 2800px;
+            
+            background-color:rgba(0, 69, 148, 0.05);
+        }
+        .p-img_0 {
+            position: absolute;
+            top: 200px; left: 270px;
+            width:1500px;
+            rotate: -3deg;
+        }
+        .p-para_1 {
+            position:absolute;
+            top:730px; left: 490px;
+            rotate: -3deg;
+            
+            font-family: odile,serif;
+            font-style: le-monde-livre-classic-byol,serif;
+            font-weight: 500;
+            font-size: 65px;
+            color: rgba(40, 30, 30, 0.83);
+            text-align: center;
+            font-style: italic;
+
+            width: 1000px; height: 200px;
+            /* border: solid red 1px; */
+            
+        }
+        .p-img_1 {
+            position:absolute;
+            top: 1000px; left: 650px;
+            width:2200px;
+            rotate: 2deg;
+        }
+        .p-para_2 {
+            position:absolute;
+            top:1265px; left: 920px;
+            rotate: 2deg;
+            
+            font-family: odile,serif;
+            font-style: le-monde-livre-classic-byol,serif;
+            font-weight: 500;
+            font-size: 53px;
+            color: rgba(40, 30, 30, 0.83);
+            text-align: center;
+            font-style: italic;
+
+            width: 1600px; height: 100px;
+            /* border: solid red 1px; */
+        }
+        .p-img_2 {
+            position:absolute;
+            top: 1700px; left: 200px;
+            width:2100px;
+            rotate: -3deg;
+        }
+        .p-para_3 {
+            position:absolute;
+            top:1870px; left: 450px;
+            rotate: -3deg;
+            
+            font-family: odile,serif;
+            font-style: le-monde-livre-classic-byol,serif;
+            font-weight: 500;
+            font-size: 50px;
+            color: rgba(40, 30, 30, 0.83);
+            text-align: center;
+            font-style: italic;
+
+            width: 1600px; height: 150px;
+            /* border: solid red 1px; */
+        }
+        .p-img_3 {
+            position:absolute;
+            top:2100px; right:150px;
+            width: 1350px;
+            rotate: 3deg;
+        }
+        .p-para_4 {
+            position:absolute;
+            top:2530px; right: 340px;
+            rotate: 3deg;
+            
+            font-family: odile,serif;
+            font-style: le-monde-livre-classic-byol,serif;
+            font-weight: 500;
+            font-size: 48px;
+            color: rgba(40, 30, 30, 0.83);
+            text-align: center;
+            font-style: italic;
+
+            width: 1000px; height: 250px;
+            /* border: solid red 1px; */
+        }
+        .p-img_4 {
+            position:absolute;
+            top: 2650px; left: 350px;
+            width:1500px;
+            rotate: -4deg;
+            filter: brightness(0.995);
+        }
+        .p-para_5 {
+            position:absolute;
+            top:3135px; left: 525px;
+            rotate: -4deg;
+            
+            font-family: odile,serif;
+            font-style: le-monde-livre-classic-byol,serif;
+            font-weight: 500;
+            font-size: 48px;
+            color: rgba(40, 30, 30, 0.83);
+            text-align: center;
+            font-style: italic;
+
+            width: 1100px; height: 300px;
+            /* border: solid red 1px; */
+        }
+
+
+
+
+        .p-para_dot {
+            position: absolute;
+            top:4150px; left: 1250px;
+            width: 300px;
+            height:150px;
+
+            color: rgb(0, 0, 0,0.7);
+            font-size: 80px;
+            text-align: center;
+            font-weight: 500;
+            line-height: 1.1;
+
+            font-family: le-monde-livre-classic-byol,serif;
+            font-style: normal;
+            
+            /* border: solid red 1px; */
+        }
+/* -----------------------start--------------------------------------------------------------- */
+
+
+            .s-title {
+            position: absolute;
+            top: 21900px; left: 1050px;
+
+            width: 900px;
+            height: 180px;
+            
+            font-family: le-monde-livre-classic-byol,serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 83px;
+            text-align: center;
+            color:rgb(40, 30, 30);
+            padding-top: 25px;
+
+            /* border: rgb(40, 30, 30) solid 5px; */
+        }
+        .s-body {
+            position: relative;
+            top: 12900px;
+            
+            width: 3000px;
+            height: 3500px;
+            background-color: black;
+        }
+        .s-img_0 {
+            position:absolute;
+            top: 30px;
+            width: 3000px;
+
+            filter: brightness(0.4);
+        }
+        .s-para_0 {
+            position: absolute;
+            top: 420px; left: 490px;
+
+            width: 2000px; height: 1500px;
+            /* border: 1px solid red; */
+            padding: 350px;
+
+            font-family: le-monde-livre-classic-byol,serif;
+            font-weight: 800;
+            font-style: normal;
+            font-size: 140px;
+            text-align: center;
+            color: rgb(255,255,255);
+        }
+        .s-button {
+            position:absolute;
+            top: 1850px; right: 570px;
+
+            width: 900px; height:200px;
+            background-color: black;
+            transition: background-color 0.3s, color 0.3s;
+            border: rgb(255, 217, 0) 10px solid;
+            color:rgb(255, 217, 0);
+
+            font-family: le-monde-livre-classic-byol,serif;
+            font-weight: 800;
+            font-style: normal;
+            font-size: 70px;
+
+        }
+        .s-button:hover {background-color: rgb(255, 217, 0); color: rgba(31, 31, 31);}
+        .s-hr {width: 900px; height: 6px; position:absolute; top:2100px; right:570px; color: rgb(255, 217, 0); background-color: rgb(255, 217, 0); }
+    </style>
 </head>
 
-<body class="bg-black">
-    <section id="title">
-        <div class="bg-dark text-white">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h1>Memorial</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- --------------------------------------------- ---------------------------------------------------------------------------------------------------- -->
 
-    <section class="image-slide">
-        <div class="bg-secondary" style="height: 1000px;">
 
-        </div>
 
-        <div class="bg-warning">
-            <img src="assets/images/1_1.jpg" id="myImg" class="reveal" style="width: 350px; float: left;" alt="image">
-        </div>
 
-        <div style="height: 1000px;"></div>
+<body>
 
-    </section>
+<!-- --main.--------------------------------------------------------------------------- -->
+    <img src="sources/main-0.png" class="main-image">
+        <div class="main_1">
+            Pray For 
+            <span class="main-span1"><b>&nbsp;Iran.&nbsp;</b></span>
+            <br>
+            Pray For
+            <span class="main-span1">&nbsp;the <b>Women</b> of <b>Islalm.&nbsp;</b></span>
+        </div> 
 
-    <section id="grey">
-        <div class="turnG w-100 dis">
-            <img src="assets/images/2.jpg" class="w-100" alt="image">
-            <img src="assets/images/2_G.jpg" class="w-100 img-top" alt="image-top">
-        </div>
-    </section>
+    <!-- <div class="main_2"></div> -->
 
-    <div style="height: 500px;"></div>
-
-    <div class="fixed-bottom">
-        <div style="background-color: pink;">
-            <p>Text Filed Here</p>
-        </div>
-        <input type="text" class="form-control" placeholder="Text Field">
+<!-- --------rights. --------------------------------------------------------------- -->
+    <div class="title" style="top: 1850px;">
+        __<br>
+        <span style="position: relative; top:10px;">
+        “ Why <br>
+        &nbsp;&nbsp;&nbsp;<b>Muslim Women</b>'s <br>
+        &nbsp;&nbsp;&nbsp;<i>Rights?</i> ”<br>
+        </span>
     </div>
 
+    <!-- <div class="rights_0"></div> -->
+    <div class="rights_body">
+        <img src="sources/rights-5.jpg" class="r-img_1">
+        <div class="r-para_1">
+           <p>“Women, Life, Freedom”<br><br><br><br><br><br><br>
+            <span id="r-span_1"">“We are Not Silent,<br> <i>We are Not Obedient,<br> My Body is my Decision.”</i></span> <br></p>
+        </div>
+
+        <img src="sources/rights-1.png" class="r-img_2">
+        <div class="r-para_2"><i><b>Women</b> in Iran are<br> <b>shouting</b> now.</i></div>
+        <img src="sources/rights-2.png" class="r-img_3">
+        <div class="r-para_3">Through The death of <b style="color:rgb(255, 217, 0,0.9)"><i>‘Mahsa Amini’</i></b>,<br> we should know <i><b>‘Why they are fighting.’</b></i></div>
+        <img src="sources/rights-3.png" class="r-img_4">
+        <div class="r-para_4">
+            Even now, In Iran, <br>many women are being killed by the Iranian Government. <br>
+            Please be concerned about <i><b>their Lives, their Rights, and their shouting</b></i>.<br>
+            <b style="color: rgb(255, 217, 0,0.9); font-size: 130%; position:relative; top:30px;">Need Help to them.</b><br>
+        </div>
+    </div>
+
+<!-- ------join----------------------------------------------------------------------- -->
+    <div class="title" style="top:9350px;">
+        __<br>
+        <span style="position: relative; top:10px;">“&nbsp;Please <br>&nbsp;&nbsp;<b>&nbsp;Join Us</b> <br>&nbsp;&nbsp;&nbsp;by <i>Prayer.</i>”</span>
+    </div>
+    <div class="j-para_0">
+        .   &nbsp; .  &nbsp;  .<br><br>
+        Let's shout <b style="background-color: rgb(255, 217, 0,0.7)"><i>“ Women, Life, Freedom &nbsp;"</i></b> together with your <b style="background-color: rgb(255, 217, 0,0.7)">Prayer and Support</b></i>. <br>
+        With our Prayers and Support, <i><b>They will Rise Again In God</b></i>. <br>
+    </div>
+    <div class="j-body">
+        <img class="j-img_0" src="sources/join-1.PNG">
+        <div class="j-para_1">
+            <b style="background-color:rgb(255, 217, 0,0.9); color:rgb(31, 20, 20)">&nbsp;A young Iranian Couple</b> who converted to Christianity <br>had to leave their country 
+            under <b>pressure and harassment</b> <br>from the <b>Iranian government.</b> <br><br>
+            <span style="position:relative; bottom:30px;">&nbsp;However,<Br> they found <b>hope</b> amid protests in Iran, <br>
+            where there is <b>no freedom of expression and faith</b>.</span>
+        </div>
+        <div class="j-para_2"><u>They said</u>,</div>
+        <div class="j-para_3">
+            _<br>
+            <span style="background-color: white; position: relative; top:50px;">&nbsp;“ &nbsp;God does not divide us into American churches,&nbsp;<br> 
+                &nbsp;Iranian churches, European churches, Chinese churches.&nbsp;<br><br>
+                &nbsp;<u style="font-size: 105%;">Christians from all over the world should join us in our difficulties.</u> &nbsp;”&nbsp;</span>
+        </div>
+        <div class="j-para_4">
+            _<br>
+            <span style="background-color: white; position: relative; top:50px;">&nbsp;“&nbsp;&nbsp; Speak out for Justice, including Protesters' Safety.&nbsp; <br>
+                &nbsp;They, shaped in the Image of God,&nbsp;
+                <br>&nbsp;are brutally dying in the streets.&nbsp;<br><br>
+                &nbsp;<u style="font-size: 105%;">Please remember Iran's Cry for Life.</u> &nbsp;”&nbsp;</span>
+        </div>
+        <div class="j-para_5">
+            "Speak up for those who cannot speak for themselves, for the rights of all who are destitute”
+        </div>
+        <div class="j-para_6">
+        (proverbs 31:8)
+        </div>
+    </div>
+    
+    <!-- ------pray--------------------------------------------------- -->
+    <div class="title" style="top:15550px;">
+        __<br>
+        <span style="position: relative; top:10px;">“&nbsp;You Can also<br>&nbsp;&nbsp;&nbsp;Be a <b>Prayer</b> <br>&nbsp;&nbsp; for <i>Iran.</i>”</span>
+    </div>
+    <div class="p-para_0">.&nbsp;&nbsp; . &nbsp;&nbsp;. <br><br><i>Please Pray Like...</i></div>
+    <div class="p-body">
+        <img src="sources/sticky3.png" class="p-img_0">
+            <div class="p-para_1">May God protect and accompany <b>Christians in Iran</b>.</div>
+        <img src="sources/sticky2-1.png" class="p-img_1">
+            <div class="p-para_2">So that <u>God's goodness</b></u> can be revealed in the protests in Iran.</div>
+        <img src="sources/sticky2-2.png" class="p-img_2">
+            <div class="p-para_3">With women killed and human rights oppressed, <br><u>Iranians can <b>meet God</b> and <b>rely more on him</b></u>.</div>
+        <img src="sources/sticky3.png" class="p-img_3">
+            <div class="p-para_4">So that<br> the <b>Korean church</b> can <b>pray with God's heart</b> <br>for Iranian and Muslim women/</div>
+        <img src="sources/sticky3.png" class="p-img_4">
+            <div class="p-para_5">So that<br> <u><b>Muslim women</b> can live</u><br> without further human rights violations <br>and <u>enjoy the dignity</u> that the Lord has given them.</div>
+
+        <div class="p-para_dot">. &nbsp; . &nbsp; . </div>
+    </div>
+<!-- ------------- start-------------------------------------------------------------------------->
+
+    <div class="s-title">
+        <b><i> “ <u>&nbsp;Praying</i></b>  <i>&</i></b> <b><i>Supporting </u>&nbsp;”&nbsp;</i></b>
+    </div>
+        <div class="s-body">
+            <img src="sources/start-0.png" class="s-img_0">
+            <div class="s-para_0">
+                <span style="background-color: rgba(31, 31, 31, 0.77);"> &nbsp;Support and Pray&nbsp; &nbsp;Together!&nbsp; </span><br><br>
+                <span style="font-size: 30%; font-weight:200; ">
+                With Your Prayers,<br>
+                <span style="position: relative; bottom: 80px;">More People will Gain Strength,
+                and God's Work will Be Fulfilled.</span></span>
+
+                <button class="s-button">&nbsp;Praying and Supporting&nbsp;</button>
+                <hr class="s-hr">
+                
+
+            </div>
+        </div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ----------------------------------------- -->
     <script>
         window.onscroll = function () { myFunction() };
 
