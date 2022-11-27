@@ -1,8 +1,61 @@
-.on-hover-cover{
-    transition: all 1.2s ease;
+.transparent{
+	opacity: 0.2;
 }
 
-.on-hover-cover:hover{
-    transform-origin: top left;
-    transform: scale(2.2);
+.on-hover-cover {
+	transition: all 1.2s ease;
+}
+
+.on-hover-cover:hover {
+	transform-origin: top left;
+	transform: scale(2.7);
+}
+
+h1 {
+	color: white;
+	margin-left: 45px;
+	margin-top: 30px;
+	font-family: le-monde-livre-classic-byol, serif;
+}
+
+hr {
+	border: 10px;
+	height: 10px;
+	background-color: white;
+	z-index: 2;
+}
+
+body {
+	background-image: url(../assets/images/image5.jpg);
+	background-size: cover;
+	background-color: black;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+video{
+	z-index: 1;
+}
+
+.on-hover-cover:hover ~ .transparent {
+	opacity: 0;
+}
+
+header {
+    height: 75px;
+    padding: 0;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    color: white;
+    background: gray;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-family: le-monde-livre-classic-byol, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
 }
