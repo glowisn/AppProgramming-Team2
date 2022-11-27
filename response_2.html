@@ -37,6 +37,15 @@
 			bottom: 200;
 			right: -65%;
 		}
+
+		.buttonTop {
+			position: fixed;
+			bottom: 0;
+			right: 0;
+			width: 100px;
+			height: 32px;
+			background-color: grey;
+		}
 	</style>
 
 
@@ -56,6 +65,11 @@
 		</div>
 
 	</section>
+
+	<div class="buttonTop text-white text-center">
+		^ Top
+	</div>
+
 
 	<div style="height: 20%;"></div>
 
@@ -125,8 +139,8 @@
 				solidarity."
 			</div>
 
-		<image src="image/자국민/3. 월드컵.PNG" width="400"></image>
-	</div>
+			<image src="image/자국민/3. 월드컵.PNG" width="400"></image>
+		</div>
 
 
 
@@ -172,8 +186,8 @@
 				them, the lawyer is also arrested.
 			</div>
 
-		<image src="image/정부/1. 언론통제.PNG" width="350"></image>
-	</div>
+			<image src="image/정부/1. 언론통제.PNG" width="350"></image>
+		</div>
 
 
 
@@ -199,9 +213,9 @@
 
 			</div>
 
-		<image src="image/정부/2. 경찰의 폭행.PNG" width="400"></image>
+			<image src="image/정부/2. 경찰의 폭행.PNG" width="400"></image>
 
-	</div>
+		</div>
 
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -218,8 +232,8 @@
 				media.
 			</div>
 
-		<image src="image/정부/3. 사형 선고.PNG" style="width: 200px;"></image>
-	</div>
+			<image src="image/정부/3. 사형 선고.PNG" style="width: 200px;"></image>
+		</div>
 
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -243,9 +257,9 @@
 			</div>
 
 
-		<image src="image/정부/4. 성폭행.PNG"></image>
+			<image src="image/정부/4. 성폭행.PNG"></image>
 
-	</div>
+		</div>
 
 
 	</section>
@@ -285,8 +299,8 @@
 				leadership."
 			</div>
 
-		<image src="image/타국가 반응/1. 독일 총리 비판.PNG" width="400"></image>
-	</div>
+			<image src="image/타국가 반응/1. 독일 총리 비판.PNG" width="400"></image>
+		</div>
 
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<div class="page">
@@ -305,8 +319,8 @@
 				Iran, regardless of their status as neutral countries.
 			</div>
 
-		<image src="image/타국가 반응/2. 스위스 청원.PNG"></image>
-	</div>
+			<image src="image/타국가 반응/2. 스위스 청원.PNG"></image>
+		</div>
 
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -331,13 +345,15 @@
 				the first World Cup held in winter. In addition, many other horses ran like tags.
 			</div>
 
-		<image src="image/타국가 반응/3. 전 피파 회장.PNG" width="400"></image>
-	</div>
+			<image src="image/타국가 반응/3. 전 피파 회장.PNG" width="400"></image>
+		</div>
 
 	</section>
 
 	<script>
 		const buttons = document.querySelectorAll('#jump');
+		const buttonTop = document.getElementsByClassName("buttonTop")[0];
+
 		buttons[0].onclick = function () {
 			window.scroll({ top: 1000, behavior: 'smooth' })
 		}
@@ -347,6 +363,11 @@
 		buttons[2].onclick = function () {
 			window.scroll({ top: 3000, behavior: 'smooth' })
 		}
+
+		buttonTop.onclick = function () {
+			window.scroll({ top: 0, behavior: 'smooth' })
+		}
+
 	</script>
 </body>
 
