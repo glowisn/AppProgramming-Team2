@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <style>
+        .slideUp {
+            animation-name: slideUp;
+            animation-name: slideUp;
+            animation-duration: 4s;
+            animation-duration: 4s;
+            visibility: visible;
+        }
+
+        @keyframes slideUp {
+            0% {
+                opacity: 0;
+                transform: translateX(-70%);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateX(0%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="slideUp" style="height:750px">
+        <h1>Slide Up</h1>
+        <p>Slide Up is a CSS animation that slides an element from the top of the page.</p>
+    </div>
+    <img src="image/1.jpg" id="myImg" style="width:300px ;">
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        function myFunction() {
+            console.log("scrolling... scrollTop : " + document.body.scrollTop);
+            if (document.body.scrollTop > 180) {
+                console.log("Slide Up");
+                document.getElementById("myImg").className = "slideUp";
+            }
+        }
+    </script>
+
+
+</body>
+
+
+
+
+
+
+</html>

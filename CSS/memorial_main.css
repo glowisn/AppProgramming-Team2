@@ -1,0 +1,45 @@
+.main-image {           
+  filter:brightness(0.85);
+  width:100%;
+
+  margin-top:10vh;
+  position: absolute;
+
+}
+.main_1 {
+  position: absolute;
+  top: 30vw;
+  left: 10vw;
+
+  font-weight: 500;
+  font-style: italic;
+  font-size: 3vw;
+  line-height: 11vh;
+  text-shadow: 0px 0px 5px darkgray;
+  color: white;
+  font-family: le-monde-livre-classic-byol,serif;
+  
+  /* border: 1px solid red; */
+}
+.main-span1 {
+  position: relative;
+  left: 8px; 
+
+  font-family: le-monde-livre-classic-byol,serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 110%; 
+  background-color: rgb(255, 220, 0); 
+  color: rgb(26, 14, 14);
+  text-shadow: none;
+  
+}
+/* .main_2 {
+  width:150px;
+  height: 80px;
+  position: absolute;
+  top:500px;
+  right:100px;
+
+  background-color: blue;
+} */

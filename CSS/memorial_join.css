@@ -1,0 +1,119 @@
+.j-para_0 {
+  position:absolute;
+  top:715vh; left:15%;
+  width:70%; height: 400px;
+
+  font-family: le-monde-livre-classic-byol,serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.85vw;
+
+  font-family: le-monde-livre-classic-byol,serif;
+  font-weight: 400;
+  font-style: normal;
+
+  color:black;
+  text-align: center;
+
+  /* border: 1px solid red; */
+}
+
+.j-body {
+  position:relative;
+  top:747vh; 
+  left:2vw;
+  height: 340vh;
+  width: 96%;
+  
+  background-color:rgba(0, 69, 148, 0.05);
+}
+.j-img_0 {
+  position: absolute;
+  width:100%;
+  filter: brightness(0.95);
+}
+.j-para_1 {
+  position:absolute;
+  top: 91vh;
+  left: 5%;
+
+  width: 63%; height: 48vh;
+  background-color: rgba(0, 69, 148,0.9);
+  color: rgba(255, 255, 255, 0.95);
+  padding: 3vw;
+
+  font-family: odile,serif;
+  font-weight: 500;
+  font-style: italic;
+
+  font-size: 1.5vw;
+}
+.j-para_2 {
+  position:absolute;
+  top:145vh; right: 63.5vw;
+
+  width:40vw; 
+  font-size: 2vw;
+  text-align: center;
+  font-family: odile,serif;
+  font-weight: 700;
+  font-style: italic;
+/* 
+  font-family: le-monde-livre-classic-byol,serif;
+  font-weight: 450;
+  font-style: normal; */
+
+  /* border: solid 1px red; */
+}
+.j-para_3 {
+  position:absolute;
+  top:170vh; left: 7.1%;
+
+  width:85%; 
+  font-size: 2.3vw;
+  font-family: odile,serif;
+  font-weight: 800;
+  font-style: italic;
+  text-align: center;
+
+  /* border: 1px solid red; */
+}
+.j-para_4 {
+  position:absolute;
+  top:235vh; left: 10%;
+
+  width:80%; 
+  font-size: 2.3vw;
+  font-family: odile,serif;
+  font-weight: 800;
+  font-style: italic;
+  text-align: center;
+
+  /* border: 1px solid red; */
+}
+.j-para_5 {
+  position:absolute;
+  top: 312vh; left:12%;
+  background-color: rgb(255, 217, 0,0.8);
+
+  width:75%;
+  font-size: 1.7vw;
+  text-align: center;
+  /* font-family: odile,serif;
+  font-weight: 500;
+  font-style: normal; */
+
+  font-family: le-monde-livre-classic-byol,serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.j-para_6 {
+  position:absolute;
+  top:318vh; right:10vw;
+  width:10vw;
+
+  font-family: le-monde-livre-classic-byol,serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.3;
+}

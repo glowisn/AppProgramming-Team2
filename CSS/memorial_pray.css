@@ -1,0 +1,155 @@
+
+        .p-para_0 {
+          position:absolute;
+          top:1160vh; left:15%;
+          width:70%; height: 400px;
+
+          font-size: 2vw;
+          font-family: odile,serif;
+          font-weight: 600;
+          font-style: normal;
+
+          color:black;
+          text-align: center;
+
+          /* border: 1px solid red; */
+      }
+      .p-body {
+          position:relative;
+          top:845vh; 
+          left:2%;
+          height: 300vh;
+          width: 96%;
+          
+          background-color:rgba(0, 69, 148, 0.05);
+      }
+      .p-img_0 {
+          position: absolute;
+          top: 5%; left: 10%;
+          width:50%;
+          rotate: -3deg;
+      }
+      .p-para_1 {
+          position:absolute;
+          top:16.5%; left: 14%;
+          rotate: -3deg;
+          
+          font-family: odile,serif;
+          font-style: le-monde-livre-classic-byol,serif;
+          font-weight: 500;
+          font-size: 2vw;
+          color: rgba(40, 30, 30, 0.83);
+          text-align: center;
+          font-style: italic;
+
+          width: 40%; height: 200px;
+          /* border: solid red 1px; */         
+      }
+      .p-img_1 {
+          position:absolute;
+          top: 67vh; left: 25%;
+          width:77%;
+          rotate: 2deg;
+      }
+      .p-para_2 {
+          position:absolute;
+          top:85vh; left: 32%;
+          rotate: 2deg;
+          
+          font-family: odile,serif;
+          font-style: le-monde-livre-classic-byol,serif;
+          font-weight: 500;
+          font-size: 1.8vw;
+          color: rgba(40, 30, 30, 0.83);
+          text-align: center;
+          font-style: italic;
+
+          width: 60%; height: 100px;
+          /* border: solid red 1px; */
+      }
+      .p-img_2 {
+          position:absolute;
+          top: 115vh; left: 7.5%;
+          width:70%;
+          rotate: -3deg;
+      }
+      .p-para_3 {
+          position:absolute;
+          top:126vh; left: 18%;
+          rotate: -3deg;
+          
+          font-family: odile,serif;
+          font-style: le-monde-livre-classic-byol,serif;
+          font-weight: 500;
+          font-size: 1.6vw;
+          color: rgba(40, 30, 30, 0.83);
+          text-align: center;
+          font-style: italic;
+
+          width: 50%; height: 150px;
+          /* border: solid red 1px; */
+      }
+      .p-img_3 {
+          position:absolute;
+          top:140vh;
+          right:19vh;
+          width: 45%;
+          rotate: 3deg;
+      }
+      .p-para_4 {
+          position:absolute;
+          top:168vh; right: 15.5%;
+          rotate: 3deg;
+          
+          font-family: odile,serif;
+          font-style: le-monde-livre-classic-byol,serif;
+          font-weight: 500;
+          font-size: 1.5vw;
+          color: rgba(40, 30, 30, 0.83);
+          text-align: center;
+          font-style: italic;
+
+          width: 35%; height: 250px;
+          /* border: solid red 1px; */
+      }
+      .p-img_4 {
+          position:absolute;
+          top: 176vh; right: 37%;
+          width:50%;
+          rotate: -4deg;
+          filter: brightness(0.995);
+      }
+      .p-para_5 {
+          position:absolute;
+          top:205vh; right: 45%;
+          rotate: -4deg;
+          
+          font-family: odile,serif;
+          font-style: le-monde-livre-classic-byol,serif;
+          font-weight: 500;
+          font-size: 1.5vw;
+          color: rgba(40, 30, 30, 0.83);
+          text-align: center;
+          font-style: italic;
+
+          width: 35%; height: 300px;
+          /* border: solid red 1px; */
+      }
+
+      .p-para_dot {
+          position: absolute;
+          top:277vh; left: 25%;
+          width: 50%;
+          height:150px;
+
+          color: rgb(0, 0, 0,0.7);
+          font-size: 2.5vw;
+          text-align: center;
+          font-weight: 500;
+          line-height: 1.1;
+
+          font-family: le-monde-livre-classic-byol,serif;
+          font-style: normal;
+          
+          /* border: solid red 1px; */
+      }

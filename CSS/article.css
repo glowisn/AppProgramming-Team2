@@ -27,15 +27,17 @@ body {
 }
 
 header {
-    height: 75px;
+    height: 50px;
     padding: 0;
     padding-left: 2rem;
     padding-right: 1rem;
     color: white;
-    background: gray;
+    background: rgba(47, 79, 79, 0.5);
     font-weight: bold;
     display: flex;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 nav {
@@ -46,4 +48,16 @@ nav {
 
 p {
     font-size: 20px;
+}
+
+li {
+    font-size: 1.8rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+span{
+    color: white;
 }

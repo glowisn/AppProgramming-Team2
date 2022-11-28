@@ -6,7 +6,7 @@
 
 .top-caption {
     position: absolute;
-    top: 10%;
+    top: 7.5%;
     text-align: center;
 }
 
@@ -37,9 +37,26 @@
 
 .mainFontBold {
     font-family: le-monde-livre-classic-byol, serif;
-    font-weight: 700;
+    font-weight: 300;
     font-style: normal;
     font-size: 160px;
+    /* font-style: italic; */
+}
+
+.mainFontBoldSecondary {
+    padding-top: 30px;
+    font-family: le-monde-livre-classic-byol, serif;
+    font-weight: 200;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.mainFontBold2 {
+    font-family: le-monde-livre-classic-byol, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 100px;
+    /* font-style: italic; */
 }
 
 .smallFontBold {

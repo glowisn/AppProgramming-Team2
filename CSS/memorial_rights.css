@@ -1,0 +1,127 @@
+        /* .rights_0 {
+            position: absolute;
+            top:2200px;
+
+            height: 700px;
+            width: 3000px;
+            background-image: linear-gradient(to bottom, white, black 90%);
+        } */
+        .rights_body {
+          position:absolute;
+          top:175vh; 
+          height: 465vh;
+          width: 100%;          
+          background-color: rgb(0, 0, 0,0.96);
+      }
+
+      .r-img_1 {
+          width:100%;
+          position:relative;
+          top: 3vh; 
+          transition: filter 0.5s;
+          /* dealy 10s 추가*/
+
+          filter: brightness(0.95); 
+      }
+      .r-img_1:hover {filter: brightness(0.2); }
+      
+      .r-para_1 {
+          font-family: le-monde-livre-classic-byol,serif;
+          font-weight: 700;
+          font-style: normal;
+          color: rgba(255, 255, 255, 0.01);
+          font-size: 6.2vw;
+          text-align: center;
+          line-height: 2.7vw;
+
+          width: 100%;
+          position: absolute;
+          top: 45vh;
+          
+
+          transition: color 1s linear;
+
+          /* border:1px solid red; */
+      } 
+      .r-para_1:hover {color: rgba(255, 255, 255, 0.923);}
+      #r-span_1 {font-size: 30%; font-family: le-monde-livre-classic-byol,serif; font-weight: 300; font-style: italic; background-color: rgb(40, 30, 30,.4);}
+
+      .r-img_2 {
+          position: relative;
+          top:45vh; left:7%;
+          width:57%;
+      }
+      .r-para_2 {
+          position: relative;
+          top:7.4%; left:7%;
+
+          width:38vw;
+          height:20vh;
+          background-color: rgba(0, 69, 148, 0.864);
+
+          color:rgba(255, 255, 255, 0.9);
+          font-size: 1.6vw;
+          text-align: right;
+          padding: 3.5% 2.8%;
+          
+          /* font-family: le-monde-livre-classic-byol,serif;
+          font-weight: 500;
+          font-style: normal; */
+
+          font-family: odile,serif;
+          font-weight: 500;
+          font-style: normal;
+      }
+      .r-img_3 {
+          position: relative;
+          left:33%;
+          top:10%;
+          width:53%;
+      }
+      .r-para_3 {
+          position: relative;
+          top: 7%; 
+          left:42%;
+
+          width:44%;
+          height:5%;
+          background-color: rgba(0, 69, 148, 0.864);
+
+          color:rgba(255, 255, 255, 0.85);
+          font-size: 1.4vw;
+          text-align: left;
+          padding:5% 0% 0% 2%;
+          /* font-family: le-monde-livre-classic-byol,serif;
+          font-weight: 500;
+          font-style: normal; */
+
+          font-family: odile,serif;
+          font-weight: 500;
+          font-style: normal;
+      }
+      .r-img_4 {
+          position: relative;
+          left:15%;
+          top:10%;
+          width:57%;
+      }
+      .r-para_4 {
+          position: relative;
+          top:5.5%; left:11%;
+
+          width:43%;
+          height:6%;
+          background-color: rgba(31, 31, 31, 0.864);
+
+          color:rgba(255, 255, 255, 0.85);
+          font-size: 1.2vw;
+          text-align: left;
+          padding:2% 0% 3% 2%;
+          /* font-family: le-monde-livre-classic-byol,serif;
+          font-weight: 500;
+          font-style: normal; */
+
+          font-family: odile,serif;
+          font-weight: 500;
+          font-style: normal;
+      }
