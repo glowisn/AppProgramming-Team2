@@ -46,6 +46,31 @@
 			height: 32px;
 			background-color: grey;
 		}
+
+		.transparent {
+			opacity: 0;
+		}
+
+		.slideUp {
+            animation-name: slideUp;
+            animation-name: slideUp;
+            animation-duration: 4s;
+            animation-duration: 4s;
+            visibility: visible;
+        }
+
+        @keyframes slideUp {
+            0% {
+                opacity: 0;
+                transform: translateX(70%);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateX(0%);
+            }
+        }
+
 	</style>
 
 
@@ -56,12 +81,12 @@
 <body style="padding: 0px 100px 100px 100px; background-color:black;">
 	<section id="responses">
 		<div>
-			<image class="center" id="jump" src="image/1.jpg" style="width:33%"></image>
+			<image class="center" id="jump" src="image/1.jpg" style="width:40%"></image>
 		</div>
-		<div style="height: 20%;"></div>
+		<div style="height: 10%;"></div>
 		<div class="d-inline-flex">
-			<image class="center" id="jump" src="image/2.jpg" style="width:33%"></image>
-			<image class="center" id="jump" src="image/3.jpg" style="width:33%"></image>
+			<image class="center" id="jump" src="image/2.jpg" style="width:35%"></image>
+			<image class="center" id="jump" src="image/3.jpg" style="width:35%"></image>
 		</div>
 
 	</section>
@@ -95,7 +120,7 @@
 				Cup."
 			</div>
 
-			<image src="image/자국민/1. 축구선수 아즈문.PNG" width="350"> </image>
+			<image src="image/자국민/1. 축구선수 아즈문.PNG" width="350" id="myImg1" class="transparent"> </image>
 		</div>
 
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -117,7 +142,7 @@
 				"Women, life, and freedom" emphasized by Alidusti is a phrase in honor of Amini.
 			</div>
 
-			<image src="image/자국민/2. 여배우.PNG" width="350"></image>
+			<image src="image/자국민/2. 여배우.PNG" width="350" id="myImg2" class="transparent"></image>
 		</div>
 
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -139,7 +164,7 @@
 				solidarity."
 			</div>
 
-			<image src="image/자국민/3. 월드컵.PNG" width="400"></image>
+			<image src="image/자국민/3. 월드컵.PNG" width="400" id="myImg3" class="transparent"></image>
 		</div>
 
 
@@ -186,7 +211,7 @@
 				them, the lawyer is also arrested.
 			</div>
 
-			<image src="image/정부/1. 언론통제.PNG" width="350"></image>
+			<image src="image/정부/1. 언론통제.PNG" width="350" id="myImg4" class="transparent"></image>
 		</div>
 
 
@@ -213,7 +238,7 @@
 
 			</div>
 
-			<image src="image/정부/2. 경찰의 폭행.PNG" width="400"></image>
+			<image src="image/정부/2. 경찰의 폭행.PNG" width="400"  id="myImg5" class="transparent"></image>
 
 		</div>
 
@@ -232,7 +257,7 @@
 				media.
 			</div>
 
-			<image src="image/정부/3. 사형 선고.PNG" style="width: 200px;"></image>
+			<image src="image/정부/3. 사형 선고.PNG" style="width: 200px;"  id="myImg6" class="transparent"></image>
 		</div>
 
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -257,7 +282,7 @@
 			</div>
 
 
-			<image src="image/정부/4. 성폭행.PNG"></image>
+			<image src="image/정부/4. 성폭행.PNG"  id="myImg7" class="transparent"></image>
 
 		</div>
 
@@ -299,7 +324,7 @@
 				leadership."
 			</div>
 
-			<image src="image/타국가 반응/1. 독일 총리 비판.PNG" width="400"></image>
+			<image src="image/타국가 반응/1. 독일 총리 비판.PNG" width="400"  id="myImg8" class="transparent"></image>
 		</div>
 
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -319,7 +344,7 @@
 				Iran, regardless of their status as neutral countries.
 			</div>
 
-			<image src="image/타국가 반응/2. 스위스 청원.PNG"></image>
+			<image src="image/타국가 반응/2. 스위스 청원.PNG"  id="myImg9" class="transparent"></image>
 		</div>
 
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -345,7 +370,7 @@
 				the first World Cup held in winter. In addition, many other horses ran like tags.
 			</div>
 
-			<image src="image/타국가 반응/3. 전 피파 회장.PNG" width="400"></image>
+			<image src="image/타국가 반응/3. 전 피파 회장.PNG" width="400"  id="myImg10" class="transparent"></image>
 		</div>
 
 	</section>
@@ -355,18 +380,80 @@
 		const buttonTop = document.getElementsByClassName("buttonTop")[0];
 
 		buttons[0].onclick = function () {
-			window.scroll({ top: 1000, behavior: 'smooth' })
+			window.scroll({ top: 660, behavior: 'smooth' })
 		}
 		buttons[1].onclick = function () {
-			window.scroll({ top: 2000, behavior: 'smooth' })
+			window.scroll({ top: 5100, behavior: 'smooth' })
 		}
 		buttons[2].onclick = function () {
-			window.scroll({ top: 3000, behavior: 'smooth' })
+			window.scroll({ top: 7830, behavior: 'smooth' })
 		}
 
 		buttonTop.onclick = function () {
 			window.scroll({ top: 0, behavior: 'smooth' })
 		}
+
+        window.onscroll = function () { scrollFunction() };
+
+		// let height = screen.height;
+		// set var for myImg1 ~ myImg10 with iteration
+		let myImgs = [];
+		for (let i = 1; i <= 10; i++) {
+			myImgs[i] = document.getElementById("myImg" + i);
+		}
+
+        function scrollFunction() {
+            console.log("scrolling... scrollTop : " + document.body.scrollTop);
+            if (document.body.scrollTop >= 660  && document.body.scrollTop < 1200) {
+                console.log("Slide Up! Img1");
+                myImgs[1].className = "slideUp";
+            }
+			else if(document.body.scrollTop >= 1200 && document.body.scrollTop < 1800){
+                console.log("Slide Up! Img2");
+				myImgs[2].className = "slideUp";
+				myImgs[1].classList.remove("slideUp");
+			}
+			else if(document.body.scrollTop >= 1800 && document.body.scrollTop < 2400){
+				console.log("Slide Up! Img3");
+				myImgs[3].className = "slideUp";
+				myImgs[2].classList.remove("slideUp");
+			}
+			else if(document.body.scrollTop >= 2400 && document.body.scrollTop < 3000){
+				console.log("Slide Up! Img4");
+				myImgs[4].className = "slideUp";
+				myImgs[3].classList.remove("slideUp");
+			}
+			else if(document.body.scrollTop >= 3000 && document.body.scrollTop < 3600){
+				console.log("Slide Up! Img5");
+				myImgs[5].className = "slideUp";
+				myImgs[4].classList.remove("slideUp");
+			}
+			else if(document.body.scrollTop >= 3600 && document.body.scrollTop < 4200){
+				console.log("Slide Up! Img6");
+				myImgs[6].className = "slideUp";
+				myImgs[5].classList.remove("slideUp");
+			}
+			else if(document.body.scrollTop >= 4200 && document.body.scrollTop < 4800){
+				console.log("Slide Up! Img7");
+				myImgs[7].className = "slideUp";
+				myImgs[6].classList.remove("slideUp");
+			}
+			else if(document.body.scrollTop >= 4800 && document.body.scrollTop < 5400){
+				console.log("Slide Up! Img8");
+				myImgs[8].className = "slideUp";
+				myImgs[7].classList.remove("slideUp");
+			}
+			else if(document.body.scrollTop >= 5400 && document.body.scrollTop < 6000){
+				console.log("Slide Up! Img9");
+				myImgs[9].className = "slideUp";
+				myImgs[8].classList.remove("slideUp");
+			}
+			else if(document.body.scrollTop >= 6000 && document.body.scrollTop < 6600){
+				console.log("Slide Up! Img10");
+				myImgs[10].className = "slideUp";
+				myImgs[9].classList.remove("slideUp");
+			}
+        }
 
 	</script>
 </body>
