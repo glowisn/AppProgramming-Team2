@@ -22,47 +22,66 @@
 
 
     <style>
-        .hr {background-color:rgb(12, 9, 9); width:190px; height: 5px; margin-left: 0px; margin-bottom: 50px; border:none;}
+        .hr {
+            background-color: rgb(12, 9, 9);
+            width: 190px;
+            height: 5px;
+            margin-left: 0px;
+            margin-bottom: 50px;
+            border: none;
+        }
+
         .title {
-            width:95%;
-            height:600px;
-            
-            position: absolute; left:5%;
+            width: 95%;
+            height: 600px;
+
+            position: absolute;
+            left: 5%;
             top: 100vh;
-            font-family: le-monde-livre-classic-byol,serif;
+            font-family: le-monde-livre-classic-byol, serif;
             font-weight: 500;
             font-style: normal;
             font-size: 2.5vw;
-            color:rgb(40, 30, 30);
+            color: rgb(40, 30, 30);
             /* border: 1px solid blue; */
         }
+
         .float {
-            width: 900px; height:100px;
-            position: fixed; bottom: 0px; right: 100px; 
+            width: 900px;
+            height: 100px;
+            position: fixed;
+            bottom: 0px;
+            right: 100px;
             background-color: rgb(255, 217, 0);
             z-index: 100;
         }
+
         .float-1 {
-            width: 385px; height: 100px;
+            width: 385px;
+            height: 100px;
             background-color: rgba(0, 69, 148);
             color: rgb(255, 255, 255);
 
-            font-family: odile,serif;
+            font-family: odile, serif;
             font-size: 1.7vw;
             font-style: italic;
             font-weight: 500;
             padding: 25px 45px;
         }
+
         .float-2 {
             position: fixed;
-            bottom: 18px; right: 190px;
-            background-color: rgb(255, 217, 0);;
+            bottom: 18px;
+            right: 190px;
+            background-color: rgb(255, 217, 0);
+            ;
 
-            width:350px; height: 60px;
-            border:rgb(40, 30,30) 4px solid;
+            width: 350px;
+            height: 60px;
+            border: rgb(40, 30, 30) 4px solid;
             color: rgb(40, 30, 30);
 
-            font-family: le-monde-livre-classic-byol,serif;
+            font-family: le-monde-livre-classic-byol, serif;
             font-size: 1.6vw;
             font-style: italic;
             font-weight: 600;
@@ -71,37 +90,60 @@
 
             transition: color, background-color;
         }
-        .float-2:hover {color: rgb(255, 217, 0); background-color: rgb(40, 30, 30);}
+
+        .float-2:hover {
+            color: rgb(255, 217, 0);
+            background-color: rgb(40, 30, 30);
+        }
+
+        header {
+            height: auto;
+            padding: 0;
+            padding-left: 2rem;
+            padding-right: 1rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            font-size: 2rem;
+        }
     </style>
 
 
 <body>
 
     <div class="float">
-        <div class="float-1"> “ <u>Join With Them!</u> ” </div> 
-        <button class="float-2"> Praying and Supporting </button>
+        <div class="float-1"> “ <u>Join With Them!</u> ” </div>
+        <button onclick="myAlertFunction()" class="float-2"> Praying and Supporting </button>
     </div>
 
-<!-- --main.--------------------------------------------------------------------------- -->
+    <!-- header -->
+    <header>
+        <a href="index.html" class="text-decoration-none text-black">
+            Home
+        </a>
+    </header>
+
+    <!-- --main.--------------------------------------------------------------------------- -->
     <img src="sources/main-0.png" class="main-image">
-        <div class="main_1">
-            Pray For 
-            <span class="main-span1"><b>&nbsp;Iran.&nbsp;</b></span>
-            <br>
-            Pray For
-            <span class="main-span1">&nbsp;the <b>Women</b> of <b>Islalm.&nbsp;</b></span>
-        </div> 
+    <div class="main_1">
+        Pray For
+        <span class="main-span1"><b>&nbsp;Iran.&nbsp;</b></span>
+        <br>
+        Pray For
+        <span class="main-span1">&nbsp;the <b>Women</b> of <b>Islalm.&nbsp;</b></span>
+    </div>
 
     <!-- <div class="main_2"></div> -->
 
-<!-- rights. ------------------------------------------------- -->
+    <!-- rights. ------------------------------------------------- -->
     <div class="title">
-        
+
         <span style="position: relative; top:33vh;">
-        __<br>
-        “ Why <br>
-        &nbsp;&nbsp;&nbsp;<b>Muslim Women</b>'s <br>
-        &nbsp;&nbsp;&nbsp;<i>Rights?</i> ”<br>
+            __<br>
+            “ Why <br>
+            &nbsp;&nbsp;&nbsp;<b>Muslim Women</b>'s <br>
+            &nbsp;&nbsp;&nbsp;<i>Rights?</i> ”<br>
         </span>
     </div>
 
@@ -109,50 +151,61 @@
     <div class="rights_body">
         <img src="sources/rights-5.jpg" class="r-img_1">
         <div class="r-para_1">
-           <p>“Women, Life, Freedom”<br><br><br><br><br><br><br>
-            <span id="r-span_1">“We are Not Silent,<br> <i>We are Not Obedient,<br> My Body is my Decision.”</i></span> <br></p>
+            <p>“Women, Life, Freedom”<br><br><br><br><br><br><br>
+                <span id="r-span_1">“We are Not Silent,<br> <i>We are Not Obedient,<br> My Body is my
+                        Decision.”</i></span> <br>
+            </p>
         </div>
 
         <img src="sources/rights-1.png" class="r-img_2">
         <div class="r-para_2"><i><b>Women</b> in Iran are<br> <b>shouting</b> now.</i></div>
         <img src="sources/rights-2.png" class="r-img_3">
-        <div class="r-para_3">Through The death of <b style="color:rgb(255, 217, 0,0.9)"><i>‘Mahsa Amini’</i></b>,<br> we should know <i><b>‘Why they are fighting.’</b></i></div>
+        <div class="r-para_3">Through The death of <b style="color:rgb(255, 217, 0,0.9)"><i>‘Mahsa Amini’</i></b>,<br>
+            we should know <i><b>‘Why they are fighting.’</b></i></div>
         <img src="sources/rights-3.png" class="r-img_4">
         <div class="r-para_4">
             Even now, In Iran, <br>many women are being killed by the Iranian Government. <br>
             Please be concerned about <i><b>their Lives, their Rights, and their shouting</b></i>.<br>
-            <b style="color: rgb(255, 217, 0,0.9); font-size: 130%; position:relative; top: 12%;">Need Help to them.</b><br>
+            <b style="color: rgb(255, 217, 0,0.9); font-size: 130%; position:relative; top: 12%;">Need Help to
+                them.</b><br>
         </div>
     </div>
 
-<!---join-------------------------------------------- -->
+    <!---join-------------------------------------------- -->
     <div class="title" style="margin-top: 565vh;">
         __<br>
-        <span style="position: relative; top:10px;">“&nbsp;Please <br>&nbsp;&nbsp;<b>&nbsp;Join Us</b> <br>&nbsp;&nbsp;&nbsp;by <i>Prayer.</i>”</span>
+        <span style="position: relative; top:10px;">“&nbsp;Please <br>&nbsp;&nbsp;<b>&nbsp;Join Us</b>
+            <br>&nbsp;&nbsp;&nbsp;by <i>Prayer.</i>”</span>
     </div>
     <div class="j-para_0">
-        .   &nbsp; .  &nbsp;  .<br><br>
-        Let's shout <b style="background-color: rgb(255, 217, 0,0.7)"><i>“ Women, Life, Freedom &nbsp;"</i></b> together with your <b style="background-color: rgb(255, 217, 0,0.7)">Prayer and Support</b></i>. <br>
+        . &nbsp; . &nbsp; .<br><br>
+        Let's shout <b style="background-color: rgb(255, 217, 0,0.7)"><i>“ Women, Life, Freedom &nbsp;"</i></b> together
+        with your <b style="background-color: rgb(255, 217, 0,0.7)">Prayer and Support</b></i>. <br>
         With our Prayers and Support, <i><b>They will Rise Again In God</b></i>. <br>
     </div>
     <div class="j-body">
         <img class="j-img_0" src="sources/join-1.PNG">
         <div class="j-para_1">
-            <b style="background-color:rgb(255, 217, 0,0.9); color:rgb(31, 20, 20)">&nbsp;A young Iranian Couple</b> who converted to Christianity <br>had to leave their country 
+            <b style="background-color:rgb(255, 217, 0,0.9); color:rgb(31, 20, 20)">&nbsp;A young Iranian Couple</b> who
+            converted to Christianity <br>had to leave their country
             under <b>pressure and harassment</b> <br>from the <b>Iranian government.</b> <br><br><br>
-            <span style="position:relative; bottom:30px;">&nbsp;However,<Br> they found <b>hope</b> amid protests in Iran, <br>
-            where there is <b>no freedom of expression and faith</b>.</span>
+            <span style="position:relative; bottom:30px;">&nbsp;However,<Br> they found <b>hope</b> amid protests in
+                Iran, <br>
+                where there is <b>no freedom of expression and faith</b>.</span>
         </div>
         <div class="j-para_2"><u>They said</u>,</div>
         <div class="j-para_3">
             _<br>
-            <span style="background-color: white; position: relative; top:50px;">&nbsp;“ &nbsp;God does not divide us into American churches,&nbsp;<br> 
+            <span style="background-color: white; position: relative; top:50px;">&nbsp;“ &nbsp;God does not divide us
+                into American churches,&nbsp;<br>
                 &nbsp;Iranian churches, European churches, Chinese churches.&nbsp;<br><br>
-                &nbsp;<u style="font-size: 105%;">Christians from all over the world should join us in our difficulties.</u> &nbsp;”&nbsp;</span>
+                &nbsp;<u style="font-size: 105%;">Christians from all over the world should join us in our
+                    difficulties.</u> &nbsp;”&nbsp;</span>
         </div>
         <div class="j-para_4">
             _<br>
-            <span style="background-color: white; position: relative; top:50px;">&nbsp;“&nbsp;&nbsp; Speak out for Justice, including Protesters' Safety.&nbsp; <br>
+            <span style="background-color: white; position: relative; top:50px;">&nbsp;“&nbsp;&nbsp; Speak out for
+                Justice, including Protesters' Safety.&nbsp; <br>
                 &nbsp;They, shaped in the Image of God,&nbsp;
                 <br>&nbsp;are brutally dying in the streets.&nbsp;<br><br>
                 &nbsp;<u style="font-size: 105%;">Please remember Iran's Cry for Life.</u> &nbsp;”&nbsp;</span>
@@ -161,49 +214,62 @@
             "Speak up for those who cannot speak for themselves, for the rights of all who are destitute”
         </div>
         <div class="j-para_6">
-        (proverbs 31:8)
+            (proverbs 31:8)
         </div>
     </div>
-    
+
     <!-- pray--------------------------------------------------- -->
     <div class="title" style="top:1115vh;">
         __<br>
-        <span style="position: relative; top:10px;">“&nbsp;You Can also<br>&nbsp;&nbsp;&nbsp;Be a <b>Prayer</b> <br>&nbsp;&nbsp; for <i>Iran.</i>”</span>
+        <span style="position: relative; top:10px;">“&nbsp;You Can also<br>&nbsp;&nbsp;&nbsp;Be a <b>Prayer</b>
+            <br>&nbsp;&nbsp; for <i>Iran.</i>”</span>
     </div>
     <div class="p-para_0">.&nbsp;&nbsp; . &nbsp;&nbsp;. <br><br><i>Please Pray Like...</i></div>
     <div class="p-body">
         <img src="sources/sticky3.png" class="p-img_0">
-            <div class="p-para_1">May God protect and accompany <b>Christians in Iran</b>.</div>
+        <div class="p-para_1">May God protect and accompany <b>Christians in Iran</b>.</div>
         <img src="sources/sticky2-1.png" class="p-img_1">
-            <div class="p-para_2">So that <u>God's goodness</b></u> can be revealed in the protests in Iran.</div>
+        <div class="p-para_2">So that <u>God's goodness</b></u> can be revealed in the protests in Iran.</div>
         <img src="sources/sticky2-2.png" class="p-img_2">
-            <div class="p-para_3">With women killed and human rights oppressed, <br><u>Iranians can <b>meet God</b> and <b>rely more on him</b></u>.</div>
+        <div class="p-para_3">With women killed and human rights oppressed, <br><u>Iranians can <b>meet God</b> and
+                <b>rely more on him</b></u>.</div>
         <img src="sources/sticky3.png" class="p-img_3">
-            <div class="p-para_4">So that<br> the <b>Korean church</b> can <b>pray with God's heart</b> <br>for Iranian and Muslim women/</div>
+        <div class="p-para_4">So that<br> the <b>Korean church</b> can <b>pray with God's heart</b> <br>for Iranian and
+            Muslim women/</div>
         <img src="sources/sticky3.png" class="p-img_4">
-            <div class="p-para_5">So that<br> <u><b>Muslim women</b> can live</u><br> without further human rights violations <br>and <u>enjoy the dignity</u> that the Lord has given them.</div>
+        <div class="p-para_5">So that<br> <u><b>Muslim women</b> can live</u><br> without further human rights
+            violations <br>and <u>enjoy the dignity</u> that the Lord has given them.</div>
 
         <div class="p-para_dot">. &nbsp; . &nbsp; . </div>
     </div>
-<!-- start----------------------------------------------------->
+    <!-- start----------------------------------------------------->
 
     <div class="s-title">
-        <b><i> “ <u>&nbsp;Praying</i></b>  <i>&</i></b> <b><i>Supporting </u>&nbsp;”&nbsp;</i></b>
+        <b><i> “ <u>&nbsp;Praying</i></b> <i>&</i></b> <b><i>Supporting </u>&nbsp;”&nbsp;</i></b>
     </div>
-        <div class="s-body">
-            <img src="sources/start-0.png" class="s-img_0">
-            <div class="s-para_0">
-                <span style="background-color: rgba(31, 31, 31, 0.77);"> &nbsp;Support and Pray&nbsp; &nbsp;Together!&nbsp; </span><br><br>
-                <span style="font-size: 30%; font-weight:200; ">
+    <div class="s-body">
+        <img src="sources/start-0.png" class="s-img_0">
+        <div class="s-para_0">
+            <span style="background-color: rgba(31, 31, 31, 0.77);"> &nbsp;Support and Pray&nbsp; &nbsp;Together!&nbsp;
+            </span><br><br>
+            <span style="font-size: 30%; font-weight:200; ">
                 With Your Prayers,<br>
                 <span style="position: relative; bottom: 60px;">More People will Gain Strength,
-                and God's Work will Be Fulfilled.</span></span>
+                    and God's Work will Be Fulfilled.</span></span>
 
-                <button class="s-button">&nbsp;Praying and Supporting&nbsp;</button>
-                <hr class="s-hr">
-            
-            </div>
+            <button onclick="myAlertFunction()" class="s-button">&nbsp;Praying and Supporting&nbsp;</button>
+            <hr class="s-hr">
+
         </div>
+    </div>
+
+    <script>
+
+        function myAlertFunction() {
+            alert("Comming Soon!");
+        }
+
+    </script>
 </body>
 
 
@@ -221,7 +287,7 @@
 
 
 <!-- ----------------------------------------- -->
-    
+
 </body>
 
 </html>
