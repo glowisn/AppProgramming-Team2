@@ -2,6 +2,8 @@
 	opacity: 0.2;
 }
 
+/* Video scale on hover */
+
 .on-hover-cover {
 	transition: all 1.2s ease;
 }
